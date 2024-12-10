@@ -1,0 +1,40 @@
+body {
+  background-color: #1b1c1f;
+  color: white;
+}
+
+.simon-board {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 16px;
+  justify-content: center;
+  margin: auto;
+  width: 340px;
+}
+
+.simon-button {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  opacity: 0.8;
+  cursor: pointer;
+  border: solid white 1px;
+}
+
+.simon-button.pressed {
+  transform: scale(0.95);
+  opacity: 1;
+}
+
+#green {
+  background-color: #4caf50;
+}
+#red {
+  background-color: #f44336;
+}
+#yellow {
+  background-color: #ffeb3b;
+}
+#blue {
+  background-color: #2196f3;
+}
